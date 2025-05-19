@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FableFolk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>FABLEFOLK</h1>
+    </div>
+    <div class="container"></div>
+    <div class="bookcontainer">
+        <h1>Its End With Us</h1>
+        <h4>Colleen</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, excepturi. Atque similique aut nesciunt ab, dicta consectetur nisi ea, molestiae corporis obcaecati est nemo consequatur ullam debitis, ducimus sunt tempora?</p>
+        <button onclick="deletebook(event)">delete</button>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Book Author" id="book-author-input">
+            <textarea placeholder="Short Description" id="book-description-input">
+            </textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">Cancel</button>
+               </form>
+    </div>
+    <button class="addbutton" id="addpopupbutton">+</button>
+    <script src="script.js"></script>
+    
+</body>
+</html>
